@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar color="orange">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>List</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+<!--  START  --><button ion-item *ngFor="let item of items">
+      <ion-icon [name]="item.icon" item-left></ion-icon>
+      ERROR 404
+      <div class="item-note" item-right>
+        when login to system
+      </div>
+    </button>
+    <div class="item-note" item-right style="margin-left: 20%; font-size: 20px;">
+      There is many reasons can be:
+      <ion-list>
+        <p>1. no internet access</p>
+        <p>2. Google server crashed</p>
+      </ion-list>
+    </div>
+<!--  END  -->
+    <!--  START  --><button ion-item *ngFor="let item of items">
+    <ion-icon [name]="item.icon" item-left></ion-icon>
+    Maps are not showing
+    <div class="item-note" item-right>
+      On Map page
+    </div>
+  </button>
+    <div class="item-note" item-right style="margin-left: 20%; font-size: 20px;">
+      There is many reasons can be:
+      <ion-list>
+        <p>1. no internet access</p>
+        <p>2. Google server crashed</p>
+      </ion-list>
+    </div>
+    <!--  END  -->
+  </ion-list>
+</ion-content>

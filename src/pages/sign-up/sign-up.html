@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-navbar color="orange">
+        <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Profile</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-row>
+        <ion-col text-center>
+            <div class="form-item">
+                <button full color="danger" ion-button (click)="createAccountWithGoogle()">
+                    <ion-icon name="logo-google"></ion-icon>
+                    &nbsp; Login with Google
+                </button>
+            </div>
+        </ion-col>
+    </ion-row>
+</ion-content>

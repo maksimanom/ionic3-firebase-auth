@@ -1,0 +1,7 @@
+{
+  "name": "FirebaseIonicApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
